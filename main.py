@@ -3,9 +3,9 @@
 
 def ispalindrome(p):
 
-    # votre code ici
-    
-    return False
+    for indice in range(len(p)):
+        if p[indice] != p[len(p)-indice-1] : return False    
+    return True
 
 #### Fonction principale
 
